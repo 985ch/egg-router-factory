@@ -1,6 +1,6 @@
 {
   "name": "egg-router-factory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An egg plugin that automatically generates routes based on path and configuration",
   "eggPlugin": {
     "name": "routerFactory"
@@ -8,7 +8,9 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "egg-router",
+    "router"
   ],
   "dependencies": {
     "lodash": "^4.17.11"
