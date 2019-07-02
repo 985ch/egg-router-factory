@@ -1,8 +1,6 @@
 'use strict';
 
-module.exports = () => {
-  return {
-    name: 'home',
-    controller: 'home.index',
-  };
+module.exports = {
+  name: 'home',
+  controller: 'home.index',
 };

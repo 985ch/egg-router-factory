@@ -2,6 +2,8 @@
 
 module.exports = () => {
   return {
-    controller: 'home.test',
+    async controller() {
+      this.body = 'test success';
+    },
   };
 };

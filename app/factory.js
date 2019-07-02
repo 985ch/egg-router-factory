@@ -63,7 +63,7 @@ class RouterFactory {
     let text = '';
     for (let i = 0; i < this.routers.length; i++) {
       const obj = this.routers[i];
-      text += `[${obj.method}]${obj.url}\n`;
+      text += `[${obj.method}]${obj.item.path || obj.path}\n`;
     }
     return text;
   }

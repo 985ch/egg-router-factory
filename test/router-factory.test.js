@@ -1,6 +1,8 @@
 'use strict';
 
 const mock = require('egg-mock');
+const path = require('path');
+const fs = require('fs');
 
 describe('test/router-factory.test.js', () => {
   let app;
@@ -11,7 +13,10 @@ describe('test/router-factory.test.js', () => {
     return app.ready();
   });
 
-  after(() => app.close());
+  after(() => {
+    fs.writeFileSync(path.join(app.baseDir, 'logs/doc.txt'), app.routerFactory.buildDoc());
+    app.close();
+  });
   afterEach(mock.restore);
 
   it('should GET /', () => {
