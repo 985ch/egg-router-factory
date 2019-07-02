@@ -65,6 +65,7 @@ const RouterFactory = require('egg-router-factory');
 class MyFactory extends RouterFactory {
   // 根据配置把中间件添加到参数
   setMiddlewares(obj, args) {
+    const app = this.app;
     if(obj.params) {
       args.push(app.middlewares.ajvValidate(obj.params));
     }

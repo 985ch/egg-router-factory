@@ -58,6 +58,7 @@ const RouterFactory = require('egg-router-factory');
 class MyFactory extends RouterFactory {
   // Add middleware one by one according to the configuration
   setMiddlewares(obj, args) {
+    const app = this.app;
     if(obj.params) {
       args.push(app.middlewares.ajvValidate(obj.params));
     }
