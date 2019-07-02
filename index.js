@@ -1,3 +1,3 @@
 'use strict';
 
-return require('./app/factory');
+module.exports = require('./app/factory');
