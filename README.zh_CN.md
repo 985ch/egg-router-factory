@@ -89,6 +89,8 @@ class MyFactory extends RouterFactory {
     return text;
   }
 }
+
+module.exports = MyFactory;
 ```
 3. 在每个路由里面编写你的配置
 ```js

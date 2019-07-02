@@ -82,6 +82,8 @@ class MyFactory extends RouterFactory {
     return text;
   }
 }
+
+module.exports = MyFactory;
 ```
 4. Write your router files
 ```js
