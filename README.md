@@ -111,7 +111,15 @@ module.exports = () => {
   },
 }
 ```
-5. Complete! You can also call buildDoc to generate documentation in test cases or elsewhere if needed.
+5. Run buildAllRouters in router.js
+```js
+// {app_root}/app/router.js
+'use strict';
+module.exports = app => {
+  app.routerFactory.buildAllRouters(app.router);
+};
+```
+6. Complete! You can also call buildDoc to generate documentation in test cases or elsewhere if needed.
 
 ## Router file
 Router configuration file supports two formats

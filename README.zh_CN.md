@@ -118,7 +118,15 @@ module.exports = () => {
   },
 }
 ```
-4. 完成！如果需要的话你还可以在测试用例和其他合适的地方调用buildDoc生成接口文档。
+4. 在router.js里调用工厂类创建全部路由
+```js
+// {app_root}/app/router.js
+'use strict';
+module.exports = app => {
+  app.routerFactory.buildAllRouters(app.router);
+};
+```
+5. 完成！如果需要的话你还可以在测试用例和其他合适的地方调用buildDoc生成接口文档。
 ## 路由配置文件
 路由配置文件支持两种格式
 * 导出一个包含唯一参数app的函数，该函数返回一个配置JSON
