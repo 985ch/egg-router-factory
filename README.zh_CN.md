@@ -11,12 +11,12 @@
 [node-image]: https://img.shields.io/badge/node-%3E%3D8-blue.svg
 [npm-image]: https://img.shields.io/npm/v/egg-router-factory.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-router-factory
-[travis-image]: https://img.shields.io/travis/eggjs/egg-router-factory.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-router-factory
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-router-factory.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-router-factory?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-router-factory.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-router-factory
+[travis-image]: https://img.shields.io/travis/985ch/egg-router-factory.svg?style=flat-square
+[travis-url]: https://travis-ci.org/985ch/egg-router-factory
+[codecov-image]: https://img.shields.io/codecov/c/github/985ch/egg-router-factory.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/985ch/egg-router-factory?branch=master
+[david-image]: https://img.shields.io/david/985ch/egg-router-factory.svg?style=flat-square
+[david-url]: https://david-dm.org/985ch/egg-router-factory
 [download-image]: https://img.shields.io/npm/dm/egg-router-factory.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-router-factory
 
